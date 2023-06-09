@@ -1,0 +1,18 @@
+Bioinformatic process for long reads 
+#1. Quality control through galaxy porechop (Galaxy Version 0.2.4+galaxy0)
+## Information on that can be found in porechop_params.txt
+
+#2. Quality of pore chop data was found on galaxy using NanoPlot (Galaxy Version 1.36.2+galaxy1)
+## Information on that can be found in nanoplot_params.txt
+
+#3. Assemblies made with Unicycler
+##in unicycles final (directory unicycler_final) and at the spades step (unicycler_onSpadesGraphs)
+
+#4. Assemblies were made from porechop and raw data using flye v.2.9.1 (in directories flye_porechop and flye_raw)
+
+##5. Both edited and unedited fasta files were blasted using BLAST V.2.13.0 
+###for f in *fasta; do b=${f%.fasta}; blastn -query $f -db /nethome/ljb178/blast_db -outfmt '6 qseqid sseqid evalue length pident' -out blast_results/${b}.txt -num_threads 5; done
+
+#6. Evaluating what all of the sequences are using GDTK on kbase as well as checkm
+##checkm results are in checkm_results.csv
+
