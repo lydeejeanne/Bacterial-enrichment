@@ -1,0 +1,66 @@
+spades with metabat2 with all sequences
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Bin Id                      Marker lineage    # genomes   # markers   # marker sets    0    1    2    3   4   5+   Completeness   Contamination   Strain heterogeneity
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Mcav-cntrl-1-17_S637.1    k__Archaea (UID2)   207         149           107         92   47   8    2   0   0 33.05            6.29               0.00
+  Mcav-cntrl-Ch-21_S638.1   k__Archaea (UID2)   207         149           107         95   36   16   1   1   0 32.13           12.60               0.00
+  Mcav-Dis-Ch-22_S640.1     k__Archaea (UID2)   207         149           107         98   33   17   1   0   0 29.24           10.11               0.00
+  Mcav-Dis-1-20_S639.3      k__Archaea (UID2)   207         149           107        137   11   1    0   0   0        4.97            0.47               0.00
+  Mcav-Dis-1-20_S639.2         root (UID1)         5656         56            24         56   0    0    0   0   0        0.00            0.00               0.00
+  Mcav-Dis-1-20_S639.1         root (UID1)         5656         56            24         56   0    0    0   0   0        0.00            0.00               0.00
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+porechop qc flye assembly
+  Bin Id                                         Marker lineage   # genomes   # markers   # marker sets   0    1   2   3   4   5+   Completeness   Contamination   Strain heterogeneity
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_9     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_8     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_7     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_6     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_5     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_4     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_3     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_2     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_13    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_12    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_11    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_10    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_1     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_0     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode81_7adbe740_ddd4abaa_2     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode81_7adbe740_ddd4abaa_1     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode81_7adbe740_ddd4abaa_0     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+
+
+flye assembly on raw sequence
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Bin Id                                         Marker lineage   # genomes   # markers   # marker sets   0    1   2   3   4   5+   Completeness   Contamination   Strain heterogeneity
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_9     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_8     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_7     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_6     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_5     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_4     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_3     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_2     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_13    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_12    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_11    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_10    root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_1     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode82_7adbe740_ddd4abaa_0     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode81_7adbe740_ddd4abaa_2     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode81_7adbe740_ddd4abaa_1     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+  FAQ04240_pass_barcode81_7adbe740_ddd4abaa_0     root (UID1)        5656         56            24        56   0   0   0   0   0        0.00            0.00               0.00
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+no host reads metabat
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Bin Id                           Marker lineage    # genomes   # markers   # marker sets    0    1   2   3   4   5+   Completeness   Contamination   Strain heterogeneity
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Mcav-Dis-Ch-22_S640_L004.1     k__Archaea (UID2) 207         149           107        142   7   0   0   0   0        5.92            0.00               0.00
+  Mcav-cntrl-Ch-21_S638_L004.1   k__Archaea (UID2) 207         149           107        142   7   0   0   0   0        4.59            0.00               0.00
+  Mcav-cntrl-1-17_S637_L004.1    k__Archaea (UID2) 207         148           106        144   4   0   0   0   0        3.14            0.00               0.00
+  Mcav-Dis-1-20_S639_L004.1         root (UID1)         5656         56            24         56   0   0   0   0   0        0.00            0.00               0.00
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

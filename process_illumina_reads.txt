@@ -1,0 +1,29 @@
+#process for short reads
+##1. Reads were trimmed and adaptors removed using bbduk.sh and normalized running using bbnorm.sh both in BBMap version 39.01
+
+for f in *_1.fq.gz; do b=${f%_1.fq.gz}; ~/software/local/bbmap/bbduk.sh in1=${f} in2=${b}_2.fq.gz out1=${b}_trim1.fq.gz out2=${b}_trim2.fq.gz ref=~/software/local/bbmap/resources/adapters.fa minlen=50 maq=10 threads=8; done
+
+for f in *_trim1.fastq.gz; do b=${f%_trim1.fastq.gz}; /nethome/ljb178/software/local/bbmap/bbnorm.sh in=${f} in2=${b}_trim2.fastq.gz target=10 out=bbnorm_processed/${b}_1.fastq.gz out2=bbnorm_processed/${b}_2.fastq.gz mindepth=2 threads=20 prefilter=t minprob=0.5 ecc=t; done
+  
+##2. Reads were assembled using spades v3.15.5 using spades v3.15.5 and megahit  v1.2.9
+for f in *_1.fastq.gz; do b=${f%_1.fastq.gz}; ~/software/local/SPAdes-3.15.5-Linux/bin/spades.py -1 ${f} -2 ${b}_2.fastq.gz -t 16 --sc -o spades/${b} -m 250000; done
+
+for f in *_1.fastq.gz; do b=${f%_1.fastq.gz};  megahit -1 ${f}  -2 ${b}_2.fastq.gz -t 15 -o megahit/${b}; done 
+
+##3. Assemblies were binned  using metabat2 v.2:2.15 which also required the use of bwa v.0.7.17-r1188 and samtools version: 1.6
+
+for f in *; do
+	bwa index ${f}/contigs.fasta
+	bwa mem -t 15 ${f}/contigs.fasta ${f}_1.fastq.gz ${f}_2.fastq.gz > ${f}/${f}.sam
+	samtools sort ${f}/${f}.sam -@ 15 -o ${f}/${f}.bam; 
+	jgi_summarize_bam_contig_depths  --outputDepth ${f}/${f}_depth.txt ${f}/${f}.bam
+	metabat2 -t 15 -i ${f}/contigs.fasta -a ${f}/${f}_depth.txt -o ${f}/${f};
+done
+
+
+##4. Evaluate the binned genomes using GTDB-Tk - v1.7.0 available through www.kbase.us
+###none of the bins evaluated were able to be identified through kbase
+
+##5. BLAST all contigs using BLAST V.2.13.0
+for f in *fasta; do b=${f%.fasta}; blastn -query $f -db /nethome/ljb178/blast_db -outfmt '6 qseqid sseqid evalue length pident' -out blast_results/${b}.txt -num_threads 5; done
+ 
