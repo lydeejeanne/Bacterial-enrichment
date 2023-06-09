@@ -1,0 +1,37 @@
+Percent identity for binning
+75.0
+Minimum difference in identity
+5.0
+Require two matches for binning
+False
+Discard unassigned reads
+False
+adapter_search_settings
+Minimum identity
+90.0
+Number of alligned reads
+10000
+Scoring scheme
+3,-6,-5,-2
+end_adapter_settings
+Number of bases
+150
+Minimum trim length
+4
+Extra bases trimmed
+2
+Minimum percent identity
+75.0
+middle_adapter_settings
+Skip splitting
+False
+Discard reads with middle adapter
+False
+Minimum percent identity
+85.0
+Extra trimming good side
+10
+Extra trimming bad side
+100
+Minimum length reads post-split
+1000

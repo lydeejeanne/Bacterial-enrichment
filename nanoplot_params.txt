@@ -1,0 +1,33 @@
+Drop reads longer than length specified.
+Not available.
+Drop reads shorter than length specified.
+Not available.
+Drop outlier reads with extreme long length.
+False
+Reduce dataset to N reads by random sampling.
+Not available.
+Logarithmic scaling of lengths in plots.
+False
+Use qualities as theoretical percent identities.
+False
+Use aligned read lengths rather than sequenced length (bam mode).
+False
+Drop reads with an average quality lower than specified.
+Not available.
+Only take the N first hours of a run
+Not available.
+Which read type to extract information about from summary.
+Nothing selected.
+Use if you want to split the summary file by barcode.
+False
+Use if you want to remove supplementary alignments
+False
+customization
+Specify a color for the plots.
+Nothing selected.
+Specify the bivariate format of the plots.
+Nothing selected.
+Show the N50 mark in the read length histogram.
+False
+Job Resource Parameters
+no
