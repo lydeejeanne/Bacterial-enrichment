@@ -1,0 +1,43 @@
+SampleID,SequenceID,Condition,DateOnContainer,DNAextractionDate,Notes
+MC3_D,Mcav-Dis-Ch-22,Diseased,03-10-2020,11-25-2022,
+MC3_C,Mcav-cntrl-Ch-21,Control,03-10-2020,11-25-2022,black tape on outside of container
+CND 48 DD,CND48DD,diseased,5/18/2023,5/23/2023,Silveira protocol
+CND 49 DD,CND49DD,diseased,5/18/2023,5/23/2023,Silveira protocol
+OFD 34 DD,OFD34DD,diseased,5/18/2023,5/23/2023,Silveira protocol
+OFD 36 DD,OFD36DD,diseased,5/18/2023,5/23/2023,Silveira protocol
+MCD 102 DD,MCD102DD,diseased,5/18/2023,5/23/2023,Silveira protocol
+MCD 103 DD,MCD103DD,diseased,5/18/2023,5/23/2023,Silveira protocol
+MCD 104 DD,MCD104DD,diseased,5/18/2023,5/23/2023,Silveira protocol
+CND 48 HD,CND48HD,control,5/18/2023,5/25/2023,Silveira protocol
+CND 49 HD,CND49HD,control,5/18/2023,5/25/2023,Silveira protocol
+OFD 34 HD,OFD34HD,control,5/18/2023,5/25/2023,Silveira protocol
+OFD 36 HD ,OFD36HD,control,5/18/2023,5/25/2023,Silveira protocol
+MCD 102 HD,MCD102HD,control,5/18/2023,5/25/2023,Silveira protocol
+MCD 103 HD,MCD103HD,control,5/18/2023,5/25/2023,Silveira protocol
+MCD 104 HD,MCD104HD,control,5/18/2023,5/25/2023,Silveira protocol
+CND 48 DD,MBCND48DD,diseased,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+CND 49 DD,MBCND49DD,diseased,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+OFD 34 DD,MBOFD34DD,diseased,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+OFD 36 DD,MBOFD36DD,diseased,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+MCD 102 DD,MBMCD102DD,diseased,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+MCD 103 DD,MBMCD103DD,diseased,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+MCD 104 DD,MBMCD104DD,diseased,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+CND 48 HD,MBCND48HD,control,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+CND 49 HD,MBCND49HD,control,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+OFD 34 HD,MBOFD34HD,control,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+OFD 36 HD ,MBOFD36HD,control,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+MCD 102 HD,MBMCD102HD,control,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+MCD 103 HD,MBMCD103HD,control,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+MCD 104 HD,MBMCD104HD,control,5/18/2023,5/28/2023,ZymioBiomics with smaller magbeads (0.1-0.5mm) 
+CND 48 DD,ZBCND48DD,diseased,5/18/2023,5/27/2023,ZymioBiomics 2mm magbead
+CND 49 DD,ZBCND49DD,diseased,5/18/2023,5/27/2023,ZymioBiomics 2mm magbead
+OFD 34 DD,ZBOFD34DD,diseased,5/18/2023,5/27/2023,ZymioBiomics 2mm magbead
+OFD 36 DD,ZBOFD36DD,diseased,5/18/2023,5/27/2023,ZymioBiomics 2mm magbead
+MCD 102 DD,ZBMCD102DD,diseased,5/18/2023,5/27/2023,ZymioBiomics 2mm magbead
+MCD 103 DD,ZBMCD103DD,diseased,5/18/2023,5/27/2023,ZymioBiomics 2mm magbead
+MCD 104 DD,ZBMCD104DD,diseased,5/18/2023,5/27/2023,ZymioBiomics 2mm magbead
+OFD 34 HD,ZBOFD34HD,control,5/18/2023,5/26/2023,ZymioBiomics 2mm magbead
+OFD 36 HD ,ZBOFD36HD,control,5/18/2023,5/26/2023,ZymioBiomics 2mm magbead
+MCD 102 HD,ZBMCD102HD,control,5/18/2023,5/26/2023,ZymioBiomics 2mm magbead
+MCD 103 HD,ZBMCD103HD,control,5/18/2023,5/26/2023,ZymioBiomics 2mm magbead
+MCD 104 HD,ZBMCD104HD,control,5/18/2023,5/26/2023,ZymioBiomics 2mm magbead
