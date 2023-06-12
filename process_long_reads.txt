@@ -9,6 +9,7 @@ Bioinformatic process for long reads
 ##in unicycles final (directory unicycler_final) and at the spades step (unicycler_onSpadesGraphs)
 
 #4. Assemblies were made from porechop and raw data using flye v.2.9.1 (in directories flye_porechop and flye_raw)
+for f in *.gz; do python  ~/Flye/bin/flye  --nano-raw $f --threads 12 -o flye_porechop/$f -i 10  --meta --keep-haplotypes ; done
 
 ##5. Both edited and unedited fasta files were blasted using BLAST V.2.13.0 
 ###for f in *fasta; do b=${f%.fasta}; blastn -query $f -db /nethome/ljb178/blast_db -outfmt '6 qseqid sseqid evalue length pident' -out blast_results/${b}.txt -num_threads 5; done
